@@ -23,6 +23,5 @@ namespace MochPlayGround.SearchCriteriaModelBinder_POC
 
             return searchCriteria;
         }
-
     }
 }

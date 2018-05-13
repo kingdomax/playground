@@ -1,4 +1,5 @@
-﻿using MochPlayGround.SearchCriteriaModelBinder_POC;
+﻿using MochPlayGround.CostOfNew;
+using MochPlayGround.SearchCriteriaModelBinder_POC;
 using MochPlayGround.SearchCriteriaModelBinder_POC.model;
 
 namespace MochPlayGround
@@ -9,6 +10,9 @@ namespace MochPlayGround
         {
             // Sequence of inheritance
             new SearchCriteriaModelBinder().BindModel(new ControllerContext(), new ModelBindingContext());
+
+            // Checking performance when you new objecty
+            new CostOfNewObject().Test();
         }
     }
 }
