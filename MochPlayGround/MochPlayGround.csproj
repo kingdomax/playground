@@ -44,6 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CostOfNew\CostOfNew.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroContainer\BaseHeroContainer.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroContainer\DamageHeroContainer.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroContainer\FlankHeroContainer.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroContainer\FrontLineHeroContainer.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroContainer\SupportHeroContainer.cs" />
+    <Compile Include="MasterOfPolymorphism\HeroFactory.cs" />
+    <Compile Include="MasterOfPolymorphism\Heros\Hero.cs" />
+    <Compile Include="MasterOfPolymorphism\Heros\HeroAttribution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchCriteriaModelBinder_POC\myclass\Binder.cs" />
