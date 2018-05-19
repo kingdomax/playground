@@ -5,10 +5,10 @@ namespace FizzBuzzQuestion.Easy
     /*
         Find the second biggest number in the interger array
         
-        Given array = [40, 20, 10, 30, 50]
-        return 40
+        Input: [40, 20, 10, 30, 50]
+        Output: 40
     */
-    public class SecondBiggestNumber
+    public static class SecondBiggestNumber
     {
         public static int Calculate(int[] nums)
         {

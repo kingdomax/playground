@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\HammingDistance.cs" />
+    <Compile Include="Easy\RomanToInteger.cs" />
     <Compile Include="Easy\SecondBiggestNumber.cs" />
     <Compile Include="Easy\TwoSum.cs" />
+    <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
