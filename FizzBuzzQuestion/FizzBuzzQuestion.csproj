@@ -47,6 +47,8 @@
     <Compile Include="Easy\SecondBiggestNumber.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
+    <Compile Include="Medium\EncodeDecodeTinyUrl.cs" />
+    <Compile Include="Medium\ReverseLinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
