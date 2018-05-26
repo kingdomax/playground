@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>FizzBuzzQuestion</RootNamespace>
     <AssemblyName>FizzBuzzQuestion</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\HammingDistance.cs" />
+    <Compile Include="Easy\MoveZeroes.cs" />
     <Compile Include="Easy\RomanToInteger.cs" />
     <Compile Include="Easy\SecondBiggestNumber.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
+    <Compile Include="Hard\LRUCache.cs" />
     <Compile Include="Medium\EncodeDecodeTinyUrl.cs" />
     <Compile Include="Medium\ReverseLinkedList.cs" />
     <Compile Include="Program.cs" />
