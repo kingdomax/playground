@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\BestTimeToBuyAndSellStock.cs" />
     <Compile Include="Easy\HammingDistance.cs" />
     <Compile Include="Easy\MoveZeroes.cs" />
     <Compile Include="Easy\RomanToInteger.cs" />
