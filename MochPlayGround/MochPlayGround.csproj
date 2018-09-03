@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CostOfNew\CostOfNew.cs" />
+    <Compile Include="DownloadManager\DownloadManager.cs" />
     <Compile Include="MasterOfPolymorphism\HeroContainer\BaseHeroContainer.cs" />
     <Compile Include="MasterOfPolymorphism\HeroContainer\DamageHeroContainer.cs" />
     <Compile Include="MasterOfPolymorphism\HeroContainer\FlankHeroContainer.cs" />
